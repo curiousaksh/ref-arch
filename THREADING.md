@@ -1,4 +1,4 @@
-Threads in libgit2
+Threads in libgit2  Wowwie
 ==================
 
 You may safely use any libgit2 object from any thread, though there
