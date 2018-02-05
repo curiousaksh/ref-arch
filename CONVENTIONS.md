@@ -1,4 +1,4 @@
-# Libgit2 Conventions   updatess
+# Libgit2 Conventions   Masters Data
 
 We like to keep the source consistent and readable.  Herein are some
 guidelines that should help with that.
