@@ -9,11 +9,7 @@ We have a few rules to avoid surprising ways of calling functions and
 some rules for consumers of the library to avoid stepping on each
 other's toes.
 
- - Property accessors return the value directly (e.g. an `int` or
-   `const char *`) but if a function can fail, we return a `int` value
-   and the output parameters go first in the parameter list, followed
-   by the object that a function is operating on, and then any other
-   arguments the function may need.
+ - A
 
  - If a function returns an object as a return value, that function is
    a getter and the object's lifetime is tied to the parent
